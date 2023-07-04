@@ -9,5 +9,7 @@ import Foundation
 import Alamofire
 
 public class ClienteAPI {
-    
+    public func sayHo() -> String {
+        return("HO")
+    }
 }

@@ -8,4 +8,13 @@ final class IntegracionFreeToGameAlamofireTests: XCTestCase {
         // results.
         XCTAssertEqual(IntegracionFreeToGameAlamofire().text, "Hello, World!")
     }
+    
+    func testHo() throws {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct
+        // results.
+        var capi = ClienteAPI()
+        print("\(capi.sayHo())")
+        XCTAssertTrue(capi.sayHo() == "HO")
+    }
 }
