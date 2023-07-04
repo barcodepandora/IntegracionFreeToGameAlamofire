@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import Alamofire
 
-class ClienteAPI {
+public class ClienteAPI {
     
 }
